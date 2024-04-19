@@ -4,11 +4,11 @@ body {
 }
 
 nav {
-    background-color: red;
+    background-color: #d32f2f;
     display: flex;
     justify-content: space-around;
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 nav ul {
@@ -18,7 +18,7 @@ nav ul {
 .presentation,
 .know,
 .impact {
-    background-color: red;
+    background-color: #d32f2f;
     color: white;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ nav ul {
 
 .columns {
     display: flex;
-    flex-direction: row; /* Alterado para row */
+    flex-direction: row;
     width: 100%;
 }
 
@@ -48,11 +48,17 @@ nav ul {
     font-size: 1em;
 }
 
-
 .menu-list {
     display: flex;
     position: relative;
     justify-content: space-around;
+}
+
+.footer {
+    margin: 20px;
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    padding: 20px 0;
 }
 
 .menu-list li {
@@ -84,11 +90,11 @@ nav ul {
 
 #order {
     background-color: white;
-    color: red;
+    color: #d32f2f;
     padding: 0.5em 1em;
-    border-radius: 5%;
+    border-radius: 20px;
     border: none;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .text,
@@ -110,20 +116,20 @@ nav ul {
 
 #learn-more {
     background-color: white;
-    color: red;
+    color: #d32f2f;
     padding: 0.75em;
-    border-radius: 5%;
+    border-radius: 20px;
     border: none;
     font-size: 0.75em;
 }
 
 .action-button {
-    background-color: red;
+    background-color: #d32f2f;
     color: white;
     padding: 0.75em;
     border: none;
-    border-radius: 5%;
-    font-size: 1em;
+    border-radius: 20px;
+    font-size: 0.9em;
 }
 
 .routines,
@@ -134,7 +140,7 @@ nav ul {
 }
 
 .news {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     color: black;
     display: block;
     justify-content: center;
@@ -157,11 +163,11 @@ nav ul {
 
 .news button {
     margin: 1em;
-    background-color: red;
+    background-color: #d32f2f;
     color: white;
     padding: 0.75em;
     border: none;
-    border-radius: 5%;
+    border-radius: 20px;
     font-size: 0.75em;
     justify-content: right;
 }
@@ -172,7 +178,7 @@ nav ul {
 }
 
 footer {
-    background-color: red;
+    background-color: #d32f2f;
     color: white;
     display: block;
 }
@@ -192,4 +198,38 @@ footer {
     padding: 0.75em;
     flex-wrap: wrap;
     width: 10em;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+.institutional {
+    margin: 20px;
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    padding: 20px 0;
+}
+
+.institutional img {
+    width: 50px;
+}
+
+.institutional span {
+    font-size: 0.8125rem;
+    color: white;
+    margin: 0 20px;
+}
+
+
+.institutional {
+    background-color: #e35e5e; 
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+.institutional img {
+    width: 50px;
 }
