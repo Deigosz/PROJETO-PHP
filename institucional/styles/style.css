@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.presentation,
+.know,
+.impact {
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row; /* Alterado para row */
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.column h2 {
+    font-size: 1.5em;
+}
+
+.column p {
+    font-size: 1em;
+}
+
+
+.menu-list {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.menu-list li {
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu-active {
+    background-color: white;
+}
+
+.submenu-active .submenu {
+    display: block;
+}
+
+.has-submenu > a::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.75em;
+    line-height: 1em;
+    font-weight: 900;
+    content: "\f078";
+    color: #fff;
+    padding-left: 0.3125em;
+}
+
+#order {
+    background-color: white;
+    color: red;
+    padding: 0.5em 1em;
+    border-radius: 5%;
+    border: none;
+    font-size: 1em;
+}
+
+.text,
+.text1 {
+    display: block;
+    width: 30em;
+    margin: 1em;
+}
+
+.text h1,
+.text1 h1 {
+    font-size: 2em;
+}
+
+.text p,
+.text1 p {
+    font-size: 1.25em;
+}
+
+#learn-more {
+    background-color: white;
+    color: red;
+    padding: 0.75em;
+    border-radius: 5%;
+    border: none;
+    font-size: 0.75em;
+}
+
+.action-button {
+    background-color: red;
+    color: white;
+    padding: 0.75em;
+    border: none;
+    border-radius: 5%;
+    font-size: 1em;
+}
+
+.routines,
+.impact {
+    display: flex;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.news {
+    background-color: whitesmoke;
+    color: black;
+    display: block;
+    justify-content: center;
+    padding: 1em;
+    position: relative;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.news-item {
+    margin: 1em;
+    width: 15em;
+    justify-content: center;
+    text-align: start;
+}
+
+.news button {
+    margin: 1em;
+    background-color: red;
+    color: white;
+    padding: 0.75em;
+    border: none;
+    border-radius: 5%;
+    font-size: 0.75em;
+    justify-content: right;
+}
+
+#access {
+    position: relative;
+    justify-content: end;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    display: block;
+}
+
+.list {
+    display: flex;
+    padding: 1em 3em;
+}
+
+.list ul {
+    list-style: none;
+    justify-content: center;
+    padding: 0.25em;
+}
+
+.list ul li {
+    padding: 0.75em;
+    flex-wrap: wrap;
+    width: 10em;
+}
