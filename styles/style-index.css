@@ -49,6 +49,30 @@ body {
     background-color: var(--vermelho_escuro);
 }
 
+@media screen and (max-width: 992px) {
+    .div-footer{
+        flex-direction: column;
+    }
+
+    .section{
+        background-image: url('./img/fundo-cel.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .btns{
+        margin-bottom: 10px;
+    }
+
+    .esconde-cel{
+        display: none;
+    }
+
+    .esconde-desktop{
+        display: block;
+    }
+}
+
 #card-mer {
     background: var(--verde);
     transition: transform 0.3s ease-in-out;
@@ -82,26 +106,29 @@ a {
     display: none;
 }
 
-@media screen and (max-width: 992px) {
-    .div-footer{
-        flex-direction: column;
-    }
 
-    .section{
-        background-image: url('./img/fundo-cel.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
 
-    .btns{
-        margin-bottom: 10px;
-    }
-
-    .esconde-cel{
-        display: none;
-    }
-
-    .esconde-desktop{
-        display: block;
-    }
+/* Carroussel restaurantes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.carousel {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.restaurant {
+    display: inline-block;
+    width: 200px;
+    margin-right: 10px;
+    text-align: center;
+}
+.restaurant img {
+    width: 50%;
+    height: auto;
+    border-radius: 150px;
+}
+.restaurant h4 {
+    margin-top: 10px;
+    font-size: 18px;
 }
